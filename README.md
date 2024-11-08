@@ -53,8 +53,8 @@ The major data source used for this project is SalesData.xlsx downloaded from th
 
 
 ### ***Exploratory Data Analysis***
-Excel Formular to find:
-1. Average Sales per Product
+There are 6 categories of Products in the data. Below are the Excel Formulas to find:
+1. **Average Sales per Product For:**
 - **Gloves**
   
    ```
@@ -105,7 +105,37 @@ The results from the formulas above is given below:
 
 
  ![image](https://github.com/user-attachments/assets/29707c2f-bbca-4a83-a48b-f4e5ac29b8f5) 
-	
+
+ 2. **Total Revenue by Region**
+	There are 4 Regions in the data, below is the formula to find the total revenue for each region:
+- **East**
+
+  ```
+  =SUMIF($D$2:$D$9922,D9903,$H$2:$H$9922)
+  ```
+- **North**
+  ```
+  =SUMIF($D$2:$D$9922,D2,$H$2:$H$9922)
+  ```
+- **South**
+  ```
+   =SUMIF($D$2:$D$9922,D7,$H$2:$H$9922)
+  
+  ```
+- **West**
+
+  ```
+   =SUMIF($D$2:$D$9922,D9,$H$2:$H$9922)
+
+  ```
+The results from the formula is given below:
+
+***Total Revenue By Region**
+
+![image](https://github.com/user-attachments/assets/5b1936c5-ffb9-4492-b05b-c104dc398b71)
+
+
+
  
 	
 	 
@@ -113,10 +143,28 @@ The results from the formulas above is given below:
 
 
 
+### **Total Sales by product using Pivot Table**
+
+ 
+![image](https://github.com/user-attachments/assets/de816092-6337-4c10-8f89-8ab05a12a1f9)
+
+
+### **Total Sales by month using Pivot Table**
+
+
+
+
+![image](https://github.com/user-attachments/assets/3aad2a42-9c77-4248-bd4f-3bc6ded93a6c)
+
 
 
 ### ***Data Visualization***
 
+#### ***Excel Dashboard For SalesData***
 
-1. ### Analysis based on the Entire  HR data
+
+
+![Screenshot 2024-11-08 151906](https://github.com/user-attachments/assets/6bd36689-f0f2-469e-9ea9-53785ac0a226)
+
+
    
